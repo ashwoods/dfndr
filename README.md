@@ -24,7 +24,7 @@ MISSION
 The dashboard will serve two markets: consumer and law enforcement. 
 
 Consumers
-We believe that by educationg consumers, they can be empowered to do any of the following
+We believe that by educationg consumers, they can be empowered to do any of the following<br />
 <ol>
 	<li>Make more informed decisions about their spending habits to stop or reduce the financial transactions that directly or indirectly support organizations that employ forced labor.</li>  
 	<li>Assist with planning travels to avoid known hotspots as shown in trends or updated crowd sourced data.</li>  
@@ -45,11 +45,11 @@ Law Enforcement
 ==================
 CONTRIBUTORS
 ==================
-Designer / Frontend Developer - Juan Gallardo - j@jgallardo.me <br />
-Journalist / Researcher -  Bertha Del Rivero - bdelrivero@gmail.com <br />
-Journalist / Researcher - Daniel Morales - danielmorales@tapizmedia.com <br />
-Journalist / Researcher - Maria Del Rosario Burgueo - rosarioburgues@gmail.com <br />
-Journalist / Researcher - Maria Luisa Arredondo - mlarredondo@latinocalifornia.com <br />
++ Designer / Frontend Developer - Juan Gallardo - j@jgallardo.me <br />
++ Journalist / Researcher -  Bertha Del Rivero - bdelrivero@gmail.com <br />
++ Journalist / Researcher - Daniel Morales - danielmorales@tapizmedia.com 
++ Journalist / Researcher - Maria Del Rosario Burgueo - rosarioburgues@gmail.com 
++ Journalist / Researcher - Maria Luisa Arredondo - mlarredondo@latinocalifornia.com 
 
 
 ==================
@@ -62,5 +62,5 @@ Serverside Programming - Daniel - pydanny@movehero.co
 HOSTING
 ==================
 The prototype can be viewed at <br />
-dfndr.agavefarm.com
+<http://dfndr.agavefarm.com/>
 
