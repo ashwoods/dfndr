@@ -1,45 +1,20 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Smoothie - A Responsive Corporate WordPress Theme</title>
+    <title>DFNDR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <!--/ Google Maps -->
-    <script src="_assets/js/jquery.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
-    <script type="text/javascript" src="_assets/js/gmap3.js"></script>
-    
-    <script type="text/javascript">
-      $(function(){
-      
-        $('#gMap').gmap3(
-          { action: 'addMarker',
-            address: "1 infinite loop cupertino ca 95014",
-            map:{
-              center: true,
-              zoom: 14,
-              mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-          }
-          );
-      });
-    </script>
-
-    <!-- Le styles -->
+    <meta name="description" content="Defending by empowering">
+    <meta name="author" content="Juan Gallardo">
     <link href="_assets/css/bootstrap.css" rel="stylesheet">
     <link href="_assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="_assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 	<link rel="stylesheet" href="_assets/css/font-awesome.css">
-	
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="_assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="_assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="_assets/ico/apple-touch-icon-114-precomposed.png">
@@ -48,25 +23,19 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
   
-    <div id="social-top">
+  <div id="social-top">
   	<div class="container">
-  		<div class="row">
-  			<div class="span12">
-		  		<ul>
-		  			<li><a href="#"><i class="icon-google-plus-sign icon-large"></i></a></li>
-		  			<li><a href="#"><i class="icon-github-sign icon-large"></i></a></li>
-		  			<li><a href="#"><i class="icon-linkedin-sign icon-large"></i></a></li>
-		  			<li><a href="#"><i class="icon-pinterest-sign icon-large"></i></a></li>
-		  			<li><a href="#"><i class="icon-facebook-sign icon-large"></i></a></li> 
-		  			<li><a href="#"><i class="icon-twitter-sign icon-large"></i></a></li>
-		  		</ul>
-		  	</div><!--/span12-->
-  		</div><!--/row-->
+  		<ul>
+  			<li><a href="#"><i class="icon-google-plus-sign icon-large"></i></a></li>
+  			<li><a href="https://github.com/JGallardo/dfndr" target="_blank"><i class="icon-github-sign icon-large"></i></a></li>
+  			<li><a href="#"><i class="icon-facebook-sign icon-large"></i></a></li> 
+  			<li><a href="#"><i class="icon-twitter-sign icon-large"></i></a></li>  			
+  		</ul>
   	</div><!--/container-->	
   </div><!--/social top-->
-
+  
     <!-- Navbar
     ================================================== -->
     <div class="navbar">
@@ -77,40 +46,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand pull-left" href="index.html"><img src="_assets/img/logo.png" alt="Smoothie" width="166" height="22" /></a>
+          <a class="brand pull-left" href="index.html"><h2>DFNDR</h2></a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
               <li>
                 <a href="index.html">Home</a>
               </li>
-              <li>
-                <a href="about.html">About</a>
-              </li>
               <li class="">
-                <a href="blog.html">Blog</a>
-              </li>
-              <li class="dropdown">
-              	<a id="drop" href="work.html" role="button" class="dropdown-toggle" data-toggle="dropdown">Work <b class="orange-caret"></b></a>
-                <ul class="dropdown-menu" aria-labelledby="drop">
-                        <li><a tabindex="-1" href="work-4cols.html">4 Columns</a></li>
-                        <li><a tabindex="-1" href="work-3cols.html">3 Columns</a></li>
-                        <li><a tabindex="-1" href="work-2cols.html">2 Columns</a></li>
-                        <li><a tabindex="-1" href="work-single.html">Single Work</a></li>
-                    </ul>
-              </li>
-
-              <li class="dropdown">
-               <a id="drop" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Features <b class="orange-caret"></b></a>
-               		<ul class="dropdown-menu" aria-labelledby="drop">
-                        <li><a tabindex="-1" href="typography.html">Typography</a></li>
-                        <li><a tabindex="-1" href="elements.html">Elements</a></li>
-                        <li><a tabindex="-1" href="full-width.html">Full Width</a></li>
-                        <li><a tabindex="-1" href="pricing-tables.html">Pricing Tables</a></li>
-                        <li><a tabindex="-1" href="right-sidebar.html">Right Sidebar</a></li>
-                        <li><a tabindex="-1" href="left-sidebar.html">Left Sidebar</a></li>
-                        <li><a tabindex="-1" href="404.html">404 Page</a></li>
-                    </ul>
-              </li>
+                <a href="dashboard.html">Dashboard</a>
+              </li>              
               <li class="active">
                 <a href="contact.html">Contact</a>
               </li>
@@ -119,33 +63,12 @@
         </div>
       </div>
     </div>
-
-	<div id="orange-hero">
-		<div class="container">
-			<div class="row">
-				<div class="span12">
-					<ul class="breadcrumb">
-	  					<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-	  					<li class="active">Contact</li>
-					</ul>
-				</div><!--/span12-->
-			</div><!--/row-->
-		</div><!--/container-->
-	</div><!--/orange hero-->
 	
 	<div id="grey-content" class="grey-inner-headings">
 		<div class="container">
-			<div class="row">
-				<div class="span12">
-					<h2>Get in touch with us</h2>
-					<p>Do you need to talk to us, have a question, or even just want to tell us how awesome we are? <br>
-					Well great, find all the information you need here,or even send us a message.</p>
-				</div><!--/span12-->
-			</div><!--/row-->
+	
 		</div><!--/container-->
 	</div><!--/grey content -->
-	
-	<div id="gMap" class="gmap3"></div>
 	
 	<div id="white-content">
 		<div class="container">
@@ -189,22 +112,21 @@
 						<h4>General Info</h4>
 						<hr>
 						<address>
-  							<strong>Smoothie Inc.</strong><br>
-  							1239 Madupname St, Suite 100<br>
- 							San Francisco, CA 94107<br>
+  							<strong>DFNDR</strong><br>
+  							111111 Wilshire Blvd.<br>
+ 							Los Angeles, CA 11111<br>
   							<abbr title="Phone">P:</abbr> (123) 456-7890
 						</address>
  
 						<address class="nomarg">
-						  <strong>Johnny Doe</strong><br>
-						  <a href="mailto:#">emailaddress@gmail.com</a>
+						  <strong>Juan Gallardo</strong><br>
+						  <a href="mailto:#">jgallardo720@gmail.com</a>
 						</address>
 					</div><!--/sidebar wrap-->
 					
 					<div class="sidebar-wrap">
-						<h4>Text Blurb</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. 
-						Pellentesque nec lacus elit.</p>
+						<h4>Thank you for your interest</h4>
+						<p>We look forward to hearing from you and having you join us in the fight.</p>
 					</div><!--/sidebar wrap-->
 					
 					
@@ -218,37 +140,35 @@
 		
 	</div><!--/white content-->
 	
+ 
 	<div id="footer-meta">
 		<div class="container">			
 			<div class="row">
 				<div class="span3">
-					<h5>Text Blurb</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. 
-					Pellentesque nec lacus elit. Pellentesque convallis nisi ac augue pharetra eu tristique neque consequat. 
-					Mauris ornare tempor nulla, vel sagittis diam convallis eget.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. 
-					Pellentesque nec lacus elit.</p>
+					<h5>Mission</h5>
+					<p>DFNDR provides a platform to track, report, predict, and empower those fighting human trafficking by providing real time data and enabling sharing with the appropriate agencies.</p>
 				</div><!--/span3-->
+                
+                
 				<div class="span3">
-					<h5>Tweets</h5>
-					<p>Our first theme should be available for purchase on ThemeForest within 24 hours! <br><span class="twitter-time">About 2 hours ago</span></p>
-					<p>Uploading our theme to ThemeForest now. <br><span class="twitter-time">About 4 hours ago</span></p>
-					<p>Our first theme should be available for purchase on ThemeForest within 24 hours! <br><span class="twitter-time">About 12 hours ago</span></p>	
+					<h5>Recent Tweets</h5>
+					<p>Watch out when travelling in these area, read more at...! <br><span class="twitter-time">About 2 hours ago</span></p>
+					<p>Do not support the following vendors... <br><span class="twitter-time">About 4 hours ago</span></p>
+					<p>Report suspicious activity to the FBI! <br><span class="twitter-time">About 12 hours ago</span></p>	
 				</div><!--/span3-->
+                
+                
 				<div class="span3 footer-favorites">
-					<h5>Favorites</h5>
+					<h5>Report Activity</h5>
 					<ul>
-						<li><a href="#">Smashing Magazine</a></li>
-						<li><a href="#">CSS Tricks</a></li>
-						<li><a href="#">Dribbble</a></li>
-						<li><a href="#">ThemeForest</a></li>
-						<li><a href="#">CodeCanyon</a></li>
-						<li><a href="#">ActiveDen</a></li>	
+                    	<li><a href="http://www.state.gov/j/tip/">U.S. Department of State</a></li>
+						<li><a href="https://tips.fbi.gov/">FBI</a></li>
+						<li><a href="http://www.polarisproject.org/what-we-do/national-human-trafficking-hotline/report-a-tip">Polaris Project</a></li>
 					</ul>
 				</div><!--/span3-->
 				<div class="span3">
 					<h5>Newsletter</h5>
-					<p>Subscribe to our email list so you can keep up to date with our latest and greatest work.</p>
+					<p>Subscribe to help the fight.</p>
 					<div id="newsletter-signup">
 						<form class="form-horizontal">
 							<label for="inputEmail"></label>
@@ -263,7 +183,7 @@
 						</form>
 					</div><!--/newsletter signup-->
 					
-				</div><!--/span3-->	
+				</div><!--/span3-->		
 			</div><!--/row-->
 						
 		</div><!--/container-->
@@ -275,16 +195,15 @@
 				<div class="span12">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="work.html">Work</a></li>
+						<li><a href="dashboard.html">About</a></li>
 						<li><a href="contact.html">Contact</a></li>
-					</ul>					
-					<p>Copyright 2012 - <a href="http://metaffex.com">Smoothie, Inc</a>. All rights reserved.</p>
+					</ul>
+					<p>Copyright 2012 - <a href="http://metaffex.com">DFNDR</a>. Open Source project. Fork us on <a href="https://github.com/JGallardo/dfndr" target="_blank">GitHub</a></p>
 				</div><!--/span 12-->
 			</div><!--/row-->
 		</div><!--/container-->
 	</div><!--/footer bottom-->
+	
 
 
 
