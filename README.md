@@ -20,7 +20,7 @@ MISSION
 -----------------
 The dashboard will serve two markets: consumer and law enforcement. 
 
-__Consumers__
+__Consumers__<br />
 We believe that by educationg consumers, they can be empowered to do any of the following
 <ol>
 	<li>Make more informed decisions about their spending habits to stop or reduce the financial transactions that directly or indirectly support organizations that employ forced labor.</li>  
@@ -49,7 +49,7 @@ __CONTRIBUTORS__
 
 ADVISORS
 -----------------
-Serverside Programming - Daniel - pydanny@movehero.co
++ Serverside Programming - Daniel - pydanny@movehero.co
 
 
 HOSTING
