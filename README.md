@@ -2,13 +2,11 @@ dfndr
 =====
 
 
-==================
 INTENT
 ==================
 To develop an open source prototype of a interactive dashboard to monitor human trafficking patterns. 
 
 
-==================
 PROJECT OVERVIEW
 ==================
 This project was conceived at the first Hackathon on immigration. Hosted by La Opinion in Los Angeles, CA on 12/8/2012 - 12//9/2012. The twitter hashtag was #LAMigraHack
@@ -18,13 +16,13 @@ The original idea from Juan Gallardo was to have a live dashboard overviewed on 
 The actual implementation would exceed the length of the hackathon. It was decided to have a minimum viable product to show entry points, hypothetical destinations based on arrests of suspects, and run a simulation. 
 
 
-==================
 MISSION
 ==================
 The dashboard will serve two markets: consumer and law enforcement. 
 
 Consumers
-We believe that by educationg consumers, they can be empowered to do any of the following<br />
+-----------------
+We believe that by educationg consumers, they can be empowered to do any of the following
 <ol>
 	<li>Make more informed decisions about their spending habits to stop or reduce the financial transactions that directly or indirectly support organizations that employ forced labor.</li>  
 	<li>Assist with planning travels to avoid known hotspots as shown in trends or updated crowd sourced data.</li>  
@@ -33,6 +31,7 @@ We believe that by educationg consumers, they can be empowered to do any of the 
 </ol>
 
 Law Enforcement
+-----------------
 <ol>
 	<li> Enable law enforcement to alert travelers about suspected activity.</li> 
 	<li> Plan surveillance acitivites based on arrest and report trends.</li>
@@ -42,11 +41,10 @@ Law Enforcement
 </ol>
 
 
-==================
 CONTRIBUTORS
 ==================
-+ Designer / Frontend Developer - Juan Gallardo - j@jgallardo.me <br />
-+ Journalist / Researcher -  Bertha Del Rivero - bdelrivero@gmail.com <br />
++ Designer / Frontend Developer - Juan Gallardo - j@jgallardo.me 
++ Journalist / Researcher -  Bertha Del Rivero - bdelrivero@gmail.com 
 + Journalist / Researcher - Daniel Morales - danielmorales@tapizmedia.com 
 + Journalist / Researcher - Maria Del Rosario Burgueo - rosarioburgues@gmail.com 
 + Journalist / Researcher - Maria Luisa Arredondo - mlarredondo@latinocalifornia.com 
