@@ -39,7 +39,8 @@ __Law Enforcement__
 </ol>
 
 
-__CONTRIBUTORS__
+CONTRIBUTORS
+-----------------
 + Designer / Frontend Developer - Juan Gallardo - j@jgallardo.me 
 + Journalist / Researcher -  Bertha Del Rivero - bdelrivero@gmail.com 
 + Journalist / Researcher - Daniel Morales - danielmorales@tapizmedia.com 
